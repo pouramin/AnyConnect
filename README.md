@@ -52,3 +52,11 @@
 # Change Port
 
 #nano /etc/ocserv/ocserv.conf
+
+#Remember to Reset the OCServ after changing Port, Just type "bash ocserv-en.sh" to enter the configuration menu, and then select No, 5.
+
+-----------------
+
+#Use Ip:Port to login.
+
+-------------
