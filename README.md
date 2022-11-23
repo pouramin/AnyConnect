@@ -1,62 +1,89 @@
-# AnyConnect Configuration
------------
+# AnyConnect Configuration : نصب و کانفیگ انی کانکت
 
-# Video
 
-#https://youtu.be/HqJ7K2rB2k4
+###### YouTube Video : لینک ویدیو
 
-# Buy Server
+```
+https://youtu.be/HqJ7K2rB2k4
+```
 
-#Digitalocean:
+###### خرید دامنه از نیم چیپ: 
+```
+https://namecheap.pxf.io/BX7m6W
+```
+###### خرید دامنه سایت ایرانی: 
+```
+https://www.hub.shatelhost.com/aff.php?aff=290
+```
+###### خرید سرور از دیجیتال اوشن : 
+```
+https://m.do.co/c/0fb522deafa4
+```
+###### خرید سرور از سایت ایرانی : 
+```
+https://berbidserver.com/portal/aff.php?aff=53
+```
+###### خرید سرور از سایت ایرانی : 
+```
+https://dashboard.azaronline.com/order/?aff=790
+```
 
-#https://m.do.co/c/0fb522deafa4
+**If you think this project is helpful to you, you may wish to give a** 🌟
 
-#AzarOnline:
+**Feel Free To Donation :** ❤️
 
-#https://dashboard.azaronline.com/order/?aff=790
+>TRC20: ```TGTyqv2MH7dZztMvaP5PKuS9Bma8RY5Pk8```
 
-#BerBid Server
+>ETH: ```0x5b5202a54e5ce4fb25f0d886254eeb07bb088614```
 
-#https://berbidserver.com/portal/aff.php?aff=53
 
----------------------
-#Update & Upgrade Server
 
-#apt-get update -y && apt-get upgrade -y
+###### Update & Upgrade Server : آپدیت و آپگرید سرور
 
-------------------------
-#Install Wget if Needed
+```
+apt-get update -y && apt-get upgrade -y
+```
 
-#apt-get wget -y
+###### Install Wget if Needed : نصب پیش نیازها
 
------------------------
-# Install OCServ
+```
+apt-get wget -y
+```
 
-#wget -N --no-check-certificate https://raw.githubusercontent.com/sfc9982/AnyConnect-Server/main/ocserv-en.sh
+###### Install OCServ : نصب اوپن کانکت سرور
 
-#chmod +x ocserv-en.sh
+```
+wget -N --no-check-certificate https://raw.githubusercontent.com/sfc9982/AnyConnect-Server/main/ocserv-en.sh
+```
+```
+chmod +x ocserv-en.sh
+```
+```
+bash ocserv-en.sh
+```
 
-#bash ocserv-en.sh
+###### Install BBR : نصب پکیج بی بی آر
 
------------------
-#Install BBR
+```
+wget -N --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
+```
 
-#wget -N --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
 
--------------------
-# Manage Configuration
+###### Manage Configuration : مدیریت کانفیگ
 
-#bash ocserv-en.sh
-
+```
+bash ocserv-en.sh
+```
 ---------------
-# Change Port
+###### Change Port : تغییر پورت درصورت نیاز
+```
+nano /etc/ocserv/ocserv.conf
+```
 
-#nano /etc/ocserv/ocserv.conf
+###### Remember to Reset the OCServ after changing Port, Just type "bash ocserv-en.sh" to enter the configuration menu, and then select No, 5.
+###### برای تغییر پورت کافیه وارد کانفیگ بشید و شماره 5 رو بزنید، بعد از تغییر پورت حتما وی پی  ان رو ریست کنید.
 
-#Remember to Reset the OCServ after changing Port, Just type "bash ocserv-en.sh" to enter the configuration menu, and then select No, 5.
 
------------------
+###### Use Ip:Port to login.
 
-#Use Ip:Port to login.
 
--------------
